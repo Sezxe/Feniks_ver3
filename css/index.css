@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: Poppins;
-	background-image: url("slike/slike pocetna/naslovna.jpg");
+	background-image: url("../slike/slike pocetna/naslovna.jpg");
 	background-size:cover;
 }
 
