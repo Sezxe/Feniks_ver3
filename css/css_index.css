@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	font-family: Poppins;
+	background-image: url("../slike/Slike pocetna/naslovna_slika.jpg");
+	background-size:cover;
+}
+
+body,html{
+scroll-behavior: smooth;
+}
+
+.naslovna {
+	width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.naslovna p {
+	margin: 0px;
+	font-size: 50px; 
+	text-align: center;
+    color: white;
+	text-shadow:1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+	
+}
+
+
+.onama-slika {
+	width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	background-image: url("../slike/Slike pocetna/Onama_slika.jpg");
+	background-size: cover;
+}
+
+.onama-slika p{
+	margin-left: 1000px;
+	margin-top: -250px;
+}
+
+.onama-opis-slika {
+    image: url("../slike/Slike pocetna/Onama_opis_slika.jpg");
+}
+
+nav {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    height: 7.5vh;
+    width: 100%;
+    z-index: 2;
+    padding: 15px;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+    nav a {
+        text-decoration:;
+        color: white;
+        margin: 10px;
+        transition: 0.5s ease-in-out;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            border-radius: 1%;
+            font-size: 32px;
+            text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+        }
+
+        nav a:link {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+img{
+	border-radius: 1%;
+  background-color: #fff;
+  box-shadow:
+    0 0 15px 7px #fff,
+    0 0 25px 15px #f0f, 
+    0 0 35px 22px #0ff; 
+	margin-top: 300px;
+	margin-left: 250px;
+}

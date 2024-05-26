@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-image: url("https://images.unsplash.com/photo-1570872626485-d8ffea69f463?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    height: 7.5vh;
+    width: 100%;
+    z-index: 2;
+    padding: 15px;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+    nav a {
+        text-decoration:;
+        color: white;
+        margin: 10px;
+        transition: 0.5s ease-in-out;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            border-radius: 1%;
+            font-size: 32px;
+            text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+        }
+
+        nav a:link {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+.galerija {
+    padding-top:10vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .galerija img:not([src*="line.png"]) {
+        width: 100vh;
+        margin: 2.5vh;
+        box-shadow: 0 0 15px 5px #fff, 0 0 20px 15px #f0f, 0 0 30px 22px #0ff;
+    }
+
+    
